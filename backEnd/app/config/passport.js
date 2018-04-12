@@ -6,7 +6,7 @@ module.exports=(passport)=>{
         return done(null,user);
     });
     passport.deserializeUser((user,done)=>{
-        return done(null,false);
+        return done(null,user);
     });
     passport.use('local',new LocalStrategy({
         usernameField:'email',

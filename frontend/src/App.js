@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './CSS/app.css';
 import Header from '../src/components/header';
 import Footer from '../src/components/footer';
-import Home from '../src/tests/Home';
+import Home from '../src/components/home';
 import Signup from '../src/containers/signup';
 import Login from '../src/containers/login';
 import StudHome from '../src/containers/studHome';
