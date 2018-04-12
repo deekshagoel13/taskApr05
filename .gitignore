@@ -1,0 +1,5 @@
+backEnd/node_modules/
+frontend/node_modules/
+backEnd/package-lock.json
+frontend/package-lock.json
+.idea/
